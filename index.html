@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faisal Vision TV</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        nav {
+            background: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .videos {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #222;
+            width: 250px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+        }
+
+        .card button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .about {
+            margin-top: 50px;
+            background: #222;
+            padding: 25px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Faisal Vision TV</h1>
+        <p>Stories • Facts • Science • History</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#videos">Videos</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="container" id="home">
+
+        <h2>🎬 Latest Videos</h2>
+
+        <div class="videos" id="videos">
+
+            <div class="card">
+                <h3>🧠 Dimaagh Humein Kaise Dhoka Deta Hai?</h3>
+                <p>Brain ke amazing secrets discover karein.</p>
+                <button>Watch Video</button>
+            </div>
+
+            <div class="card">
+                <img src="https://img.youtube.com/vi/efOFVYjaM-c/hqdefault.jpg">
+
+                <h3>🌊 Samandar Ke Neeche Aakhir Kya Chhupa Hai?</h3>
+
+                <p>Deep ocean ke mysterious raaz.</p>
+
+                <a href="https://youtu.be/efOFVYjaM-c" target="_blank">
+                    <button>Watch Video</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>🧬 Agar Insaan Ka DNA 1% Badal Jaye To?</h3>
+                <p>Science aur imagination ka amazing experiment.</p>
+                <button>Watch Video</button>
+            </div>
+
+        </div>
+
+        <div class="about" id="about">
+            <h2>ℹ️ About Faisal Vision TV</h2>
+            <p>
+                Yahan aapko interesting facts, science, history
+                aur mysterious stories milengi.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
